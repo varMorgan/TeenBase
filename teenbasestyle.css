@@ -1,8 +1,13 @@
 h1 {
   text-align: center;
-  font-size: 80px;
   font-family: fantasy;
+<<<<<<< HEAD
   font-size: 80px;
+=======
+  font-size: 50px;
+  outline: inherit;
+  outline-color: inherit;
+>>>>>>> 96fbe5060d172237f43078d326ce6e71dce08a45
 }
 
 h2 {
@@ -38,6 +43,7 @@ h3 {
   color: black;
 }
 
+<<<<<<< HEAD
 .dropdown {
   position: relative;
   display: inline-block;
@@ -55,4 +61,30 @@ h3 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+=======
+h4 {
+  text-align: left;
+  font-size: 30px;
+  color: #4682B4;
+}
+
+#hehe {
+  font-weight: lighter;
+  color: #0000FF;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.links {
+  background-color: 	#FFEBCD;
+}
+
+div.topnav {
+  position: sticky;
+>>>>>>> 96fbe5060d172237f43078d326ce6e71dce08a45
 }
