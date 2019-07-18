@@ -2,6 +2,8 @@ h1 {
   text-align: center;
   font-family: fantasy;
   font-size: 50px;
+  outline: inherit;
+  outline-color: inherit;
 }
 
 h2 {
@@ -40,11 +42,12 @@ h3 {
 h4 {
   text-align: left;
   font-size: 30px;
+  color: #4682B4;
 }
 
 #hehe {
   font-weight: lighter;
-
+  color: #0000FF;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -52,4 +55,12 @@ h4 {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.links {
+  background-color: 	#FFEBCD;
+}
+
+div.topnav {
+  position: sticky;
 }
