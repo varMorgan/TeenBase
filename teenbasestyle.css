@@ -1,3 +1,4 @@
+/* homepage heading */
 h1 {
   text-align: center;
   font-family: fantasy;
@@ -23,7 +24,7 @@ h3 {
   font-weight: normal;
 }
 
-
+/* nav bar */
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -35,7 +36,7 @@ h3 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -43,48 +44,8 @@ h3 {
   color: black;
 }
 
-<<<<<<< HEAD
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-=======
-h4 {
-  text-align: left;
-  font-size: 30px;
-  color: #4682B4;
-}
-
+/* testpreppage id style  */
 #hehe {
   font-weight: lighter;
   color: #0000FF;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.links {
-  background-color: 	#FFEBCD;
-}
-
-div.topnav {
-  position: sticky;
->>>>>>> 96fbe5060d172237f43078d326ce6e71dce08a45
 }
