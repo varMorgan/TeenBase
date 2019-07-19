@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="teenbasestyle.css">
+<link rel="stylesheet" href="skillsStyle.css"
 <script src ="tbJava.js"> </script>
 <html>
     <head>
       <style>
         div.topnav {
-          position: -webkit-sticky;
+        /*  position: -webkit-sticky;*/
           position: sticky;
           top: 0;
           background-color: black;
@@ -15,11 +16,22 @@
       </style>
 
     </head>
-    <body>
+    <body background="http://getwallpapers.com/wallpaper/full/3/7/6/30170.jpg">
 
-      <div class="topnav" id="navbar">
+
+
+
+
+      <div class="navbar" >
           <a class="active" href="testrun.html">Home</a>
-          <a href="skillsPage.html">Skills</a>
+          <div class="subnav">
+            <button class="subnavbtn">Skills</button>
+            <div class="subnav-content">
+              <a href="#">Career</a>
+              <a href="#">School</a>
+              <a href="#">Random</a>
+            </div>
+          </div>
           <a href="testpreppage.html">Test Prep</a>
           <a href="scholarships.html">Scholarships</a>
           <a href="#advice">HS Advice</a>
