@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="teenbasestyle.css">
+    <script src="tbJava.js"></script>
+    <style>
+      div.topnav {
+        /* position: -webkit-sticky; */
+        position: sticky;
+        top: 0;
+        background-color: black;
+        padding: 15px;
+        font-size: 20px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="topnav" id="navbar">
+      <a class="active" href="testrun.html">Home</a>
+      <a href="skillsPage.html">Skills</a>
+      <a href="testpreppage.html">Test Prep</a>
+      <a href="scholarships.html">Scholarships</a>
+      <a href="#advice">HS Advice</a>
+      <a href="helpus.html">Help Us</a>
+    </div>
+
+    <h1>Comments?</h>
+    <hr width="75%" color=#333></hr>
+    <h2>In order for us to provide more resources and tips on navigating highschool and college we would like to enlist
+    you, our readers, for help. There are many resources that we are not aware of, so help us and send in your suggestions on how to make
+    our site better. </h2>
+    <h2>Thank you! -Admin Morgan :) </h2>
+
+    <center>
+    <form>
+      Comments:
+      <input id="comment" type="text" name="comment" value=""><br><br>
+      <input  type="submit" value="Submit" onclick="test()">
+    </form>
+    </center><br>
+
+    Comments: <span id=test></span>
+    <script>
+      function test() {
+        document.getElementById('test').innerHTML = document.getElementById('comment').value;
+      }
+    </script>
+
+
+  </body>
+
+</html>
