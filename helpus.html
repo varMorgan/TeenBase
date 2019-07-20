@@ -39,17 +39,16 @@
     <form>
       Comments:
       <input id="comment" type="text" name="comment" value=""><br><br>
-      <input  type="submit" value="Submit" onclick="test()">
+      <input  type="submit" value="Submit" onclick="addComment()">
     </form>
     </center><br>
 
-    Comments: <span id=test></span>
-    <script>
-      function test() {
-        document.getElementById('test').innerHTML = document.getElementById('comment').value;
-      }
-    </script>
 
+      <table id="table" style="width:100%">
+        <tr>
+          <th>Comments</th>
+        </tr>
+      </table>
 
   </body>
 
