@@ -36,3 +36,21 @@ h3 {
   background-color: #ddd;
   color: black;
 }
+
+#ugh {
+  color:#a66100
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: sans-serif;
+}
+
+body {background-color: white}
+
+.header {
+  background-color:gray;
+  padding:30px;
+  text-align:center;
+  color: white;
+  font-size: 12px;
+}
