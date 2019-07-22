@@ -28,25 +28,43 @@
 <div>
   <h2> Advice Begins </h2>
 
-  
+
 
   <!-- <form name = "test">
     <input type= "text" name="textie">  -->
   <!-- </form> -->
   <!-- <form name="userForm"> -->
-    <form>
-    comment:
-    <input type="text" id="userInput" placeholder="Enter text here." value = "">
-    <br><br>
-    <input type="button" value="Submit" onClick="javascript:addRow()" id="add">
+  <center>
+    <form class="advice_sect">
 
+    comments:
+    <input id="userInput" type="text" name="userInput" value> <br><br>
 
   </form>
+</center><br>
+
+<center><button onclick="myAdvice()"> Send Comment</button></center>
+
+  <p> Comments </p>
   <table id="table">
-  <thead>
-    <tr>
-      <th>Comment</th>
-    </tr>
-  <thead>
+
+    <!-- <tr>
+      <td>comment</td>
+    </tr> -->
+
   </table>
+  <br>
+
+
+<script>
+    function myAdvice(){
+    var table = document.getElementById("table");
+    var row = table.insertRow(0);
+    var td1 = row.insertCell(0);
+    td1.innerHTML = document.getElementById("userInput").value;
+}
+
+</script>
+
+
 </html>
