@@ -10,17 +10,41 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 18px;
-  font-family: sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: black; */
+  padding: 15px;
+  font-size: 40px;
+  margin: 15px;
+  font-family: fantasy;
+
 }
 
 h3 {
   text-align: center;
-  font-size: 18px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: black; */
+  padding: 15px;
+  font-size: 40px;
+  margin: 15px;
+  font-family: fantasy;
+}
+h4 {
+  text-align: center;
+  font-size: 45px;
   font-family: sans-serif;
   font-weight: normal;
 }
 
+p {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
 /* nav bar */
 /* The navigation menu */
 .navbar {
@@ -115,21 +139,9 @@ body {background-color: white}
   font-size: 50px;
 }
 
-body {
-height: 100%;
-}
-
-body {
-background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-}
-
-
 /*comments*/
 table, td {
   border: 1px solid black;
->>>>>>> d2970331fcb5f6df9b4498151fb37bc4cdeebfb5
 }
 
 * {box-sizing: border-box}
