@@ -62,9 +62,10 @@
 <form class="comment_sect">
   Comments:
   <input id="comment" type="text" name="comment" value=""><br><br>
-  <input  type="submit" value="Submit" onclick="myFunction()">
 </form>
 </center><br>
+
+<center><button onclick="myFunction()">Send Comment</button></center>
 
 <p>Comments</p>
 
@@ -75,15 +76,14 @@
 </table>
 <br>
 
-<button onclick="myFunction()">Try it</button>
 
 <script>
-function myFunction() {
-var table = document.getElementById("myTable");
-var row = table.insertRow(0);
-var cell1 = row.insertCell(0);
-cell1.innerHTML = document.getElementById("comment").value;
-}
+  function myFunction() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(0);
+  var cell1 = row.insertCell(0);
+  cell1.innerHTML = document.getElementById("comment").value;
+  }
 </script>
 
 
