@@ -1,12 +1,16 @@
+/* homepage heading */
 h1 {
   text-align: center;
   font-family: fantasy;
-  font-size: 80px;
+  font-size: 50px;
+  outline: inherit;
+  outline-color: inherit;
+
 }
 
 h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 
@@ -17,7 +21,7 @@ h3 {
   font-weight: normal;
 }
 
-
+/* nav bar */
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -29,7 +33,7 @@ h3 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -37,6 +41,7 @@ h3 {
   color: black;
 }
 
+<<<<<<< HEAD
 #ugh {
   color:#a66100
   font-size: 17px;
@@ -53,4 +58,27 @@ body {background-color: white}
   text-align:center;
   color: white;
   font-size: 12px;
+=======
+/* testpreppage id style  */
+#hehe {
+  font-weight: lighter;
+  color: #0000FF;
+  font-size: 50px;
+}
+
+body {
+height: 100%;
+}
+
+body {
+background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+/*comments*/
+table, td {
+  border: 1px solid black;
+>>>>>>> d2970331fcb5f6df9b4498151fb37bc4cdeebfb5
 }
