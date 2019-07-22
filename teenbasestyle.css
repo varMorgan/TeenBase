@@ -57,3 +57,9 @@ background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
+
+
+/*comments*/
+table, td {
+  border: 1px solid black;
+}
