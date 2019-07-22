@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<link rel"stylesheet" href="teenbasestyle.css">
+<html>
+
+  <center>
+
+
+
+
+<head>
+<body background ="http://s1.picswalls.com/wallpapers/2016/06/06/beach-pictures_090611416_305.jpg"
+
+
+
+
+</body>
+
+
+</head>
+
+
+<body>
+<center> <h1> Advice </h1> </center>
+<div>
+<center><p> This page is about helping other young students on their pathway towards college and how to remain successful throughout highschool.</p>
+</div>
+
+<div>
+  <h4> Advice Begins </h4>
+  <p> Take advantage of all volunteer opportunities within your community and school. Also when searching for volunteer opportunities try to volunteer at a certain organization for a good amount of time becaus colleges tend to see how committed you actually are.</p>
+  <p> Always seek help whenever you are struggling in a certain subject don't hesitate to ask any questions because it is better to know and understand than not understand at all. </p>
+  <p> Do not procrastinate! (I know you have probably heard this a million times but it is true!!) </p>
+  <p> Down below is a comment section in where you can input your own advice and experience :) </p>
+
+
+
+  <!-- <form name = "test">
+    <input type= "text" name="textie">  -->
+  <!-- </form> -->
+  <!-- <form name="userForm"> -->
+  <center>
+    <form class="advice_sect">
+
+    comments:
+    <input id="userInput" type="text" name="userInput" value> <br><br>
+
+  </form>
+</center><br>
+
+<center><button onclick="myAdvice()"> Send Comment</button></center>
+
+  <p> Comments </p>
+  <table id="table">
+
+    <!-- <tr>
+      <td>comment</td>
+    </tr> -->
+
+  </table>
+  <br>
+
+
+<script>
+    function myAdvice(){
+    var table = document.getElementById("table");
+    var row = table.insertRow(0);
+    var td1 = row.insertCell(0);
+    td1.innerHTML = document.getElementById("userInput").value;
+}
+
+</script>
+
+
+</html>

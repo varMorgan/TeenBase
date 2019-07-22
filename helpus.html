@@ -3,6 +3,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="teenbasestyle.css">
+    <link rel="stylesheet" href="skillsStyle.css">
     <script src="tbJava.js"></script>
     <style>
       div.topnav {
@@ -13,29 +14,82 @@
         padding: 15px;
         font-size: 20px;
       }
+
+      table, td {
+  border: 1px solid black;
+      }
     </style>
 
   </head>
 
   <body>
 
-    <div class="topnav" id="navbar">
+    <div class="navbar" >
+        <a class="active" href="testrun.html">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">Skills</button>
+          <div class="subnav-content">
+            <a href="#">Career</a>
+            <a href="#">School</a>
+            <a href="#">Random</a>
+          </div>
+        </div>
+
+        <a href="testpreppage.html">Test Prep</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="#advice">HS Advice</a>
+        <a href="helpus.html">Help Us</a>
+      </div>
+
+
+    <!-- <div class="topnav" id="navbar">
       <a class="active" href="testrun.html">Home</a>
       <a href="skillsPage.html">Skills</a>
       <a href="testpreppage.html">Test Prep</a>
       <a href="scholarships.html">Scholarships</a>
       <a href="#advice">HS Advice</a>
       <a href="helpus.html">Help Us</a>
-    </div>
+    </div> -->
 
-    <h1>Comments?</h>
+    <h1>Comments?</h1>
     <hr width="75%" color=#333></hr>
     <h2>In order for us to provide more resources and tips on navigating highschool and college we would like to enlist
     you, our readers, for help. There are many resources that we are not aware of, so help us and send in your suggestions on how to make
     our site better. </h2>
     <h2>Thank you! -Admin Morgan :) </h2>
 
+<!-- This is the comment bar -->
     <center>
+      <form class="comment_sect">
+        Comments:
+        <input id="comment" type="text" name="comment" value=""><br><br>
+    </form>
+  </center><br>
+
+<center><button onclick="myFunction()">Send Comment</button></center>
+
+<p>Comments</p>
+
+<!-- This is the comment table/design later is css -->
+<table id="myTable">
+    <tr>
+      <td>This is a comment</td>
+    </tr>
+</table>
+<br>
+
+
+<script>
+  function myFunction() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(0);
+  var cell1 = row.insertCell(0);
+  cell1.innerHTML = document.getElementById("comment").value;
+  }
+</script>
+
+
+    <!-- <center>
     <form class="comment_sect">
       Comments:
       <input id="comment" type="text" name="comment" value=""><br><br>
@@ -43,7 +97,6 @@
     </form>
     </center><br>
 
-<button onclick="saveForm()">Test</button>
 
       <table id="table" style="width:100%">
         <tr>
@@ -52,21 +105,19 @@
         <tr>
           <td>This is a comment</td>
         </tr>
-
       </table>
 
       <script>
         function saveForm() {
-          var table = document.getElementById("table");
+          var table = document.getElementById("#table");
 
           var row = table.insertRow(0);
 
           var cell1 = row.inserCell(0);
 
-          cell1.innerHTML = "tesr";
-
+          cell1.innerHTML = "test";
         }
-      </script>
+      </script> -->
 
 
 
