@@ -10,8 +10,6 @@ h1 {
 
 h2 {
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   /* background-color: black; */
   padding: 15px;
@@ -21,10 +19,14 @@ h2 {
 
 }
 
+#hehe {
+  font-weight: lighter;
+  color: #0000FF;
+  font-size: 50px;
+}
+
 h3 {
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   /* background-color: black; */
   padding: 15px;
@@ -82,13 +84,9 @@ body {background-color: white}
   text-align:center;
   color: white;
   font-size: 12px;
-=======
-/* testpreppage id style  */
-#hehe {
-  font-weight: lighter;
-  color: #0000FF;
-  font-size: 50px;
 }
+/* testpreppage id style  */
+
 
 /*comments*/
 table, td {

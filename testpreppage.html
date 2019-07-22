@@ -2,16 +2,17 @@
 
 <html>
 <head>
-<link rel="stylesheet" href="teenbasestyle.css">
+<link rel="stylesheet" href="skillsStyle.css">
+<link rel="stylesheet" href="testprepstyle.css">
 <style>
-  div.topnav {
+  /* div.topnav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: black;
     padding: 15px;
     font-size: 20px;
-  }
+  } */
 
   body {
 height: 100%;
@@ -27,14 +28,23 @@ background-size: 100% 100%;
 
   <body>
 
-    <div class="topnav">
-      <a href="testrun.html">Home</a>
-      <a href="skillsPage.html">Skills</a>
-      <a class="active" href="testpreppage.html">Test Prep</a>
-      <a href="scholarships.html">Scholarships</a>
-      <a href="#advice">HS Advice</a>
-      <a href="helpus.html">Help Us</a>
+    <div class="navbar" id="sticky">
+        <a class="active" href="testrun.html">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">Skills</button>
+          <div class="subnav-content">
+            <a href="#">Career</a>
+            <a href="#">School</a>
+            <a href="#">Random</a>
+          </div>
     </div>
+
+        <a href="testpreppage.html">Test Prep</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="advice.html">HS Advice</a>
+        <a href="helpus.html">Help Us</a>
+      </div>
+
 
     <h1>Test Prep and Tips</h>
     <hr width="75%" color=#333></hr>
@@ -60,6 +70,11 @@ background-size: 100% 100%;
     <u><h1 id="hehe">ACT<h1></u>
 
     <u><h1 id="hehe">Tips From Highschoolers<h1></u>
+
+
+      <!-- This code is for the scroll to the top button -->
+
+  <button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
 
   </body>
 
