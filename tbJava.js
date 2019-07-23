@@ -48,8 +48,3 @@ function topFunction() {
 //   table.children[0].appendChild(row);
 //
 // }
-<<<<<<< HEAD
-=======
-
-//https://www.w3schools.com/jsref/met_table_insertrow.asp
->>>>>>> f4b82f69576dd8d60aebe2f688276740e719587b
