@@ -42,6 +42,16 @@ h2 {
 
 }
 
+body {
+height: 100%;
+}
+
+body {
+background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
 #hehe {
   font-weight: lighter;
   color: #0000FF;
