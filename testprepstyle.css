@@ -56,7 +56,8 @@ background-color: white;
   font-weight: lighter;
   color: #0000FF;
   font-size: 50px;
-  font-family: cursive;
+  font-family: monospace;
+  text-align: center;
 }
 
 .testing {
@@ -72,8 +73,30 @@ background-color: white;
   border-top-style: outset;
 }
 
+.info {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: lighter;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 .AP-des {
   background-image: url("http://www.treesmart.com/TSPStore/wp-content/uploads/2015/01/80001-Sharpened-Pencils.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: inherit;
+  border-bottom-style: outset;
+  border-top-style: outset;
+}
+
+.SAT-des {
+  background-image: url("https://www.designsponge.com/wp-content/uploads/2012/10/pinkpearl1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
