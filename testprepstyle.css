@@ -71,3 +71,15 @@ background-color: white;
   border-bottom-style: outset;
   border-top-style: outset;
 }
+
+.AP-des {
+  background-image: url("http://www.treesmart.com/TSPStore/wp-content/uploads/2015/01/80001-Sharpened-Pencils.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: inherit;
+  border-bottom-style: outset;
+  border-top-style: outset;
+}
