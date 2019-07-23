@@ -1,229 +1,27 @@
-h1 {
+h1{
   text-align: center;
   font-family: fantasy;
-  font-size: 50px;
+  font-size: 60px;
   outline: inherit;
   outline-color: inherit;
-
 }
 
-h2 {
+h2{
   text-align: center;
-  top: 0;
-  /* background-color: black; */
-  padding: 15px;
-  font-size: 40px;
-  margin: 15px;
   font-family: sans-serif;
-
-}
-
-#hehe {
-  font-weight: lighter;
-  color: #0000FF;
-  font-size: 50px;
-}
-
-h3 {
-  text-align: center;
-  top: 0;
-  /* background-color: black; */
-  padding: 15px;
-  font-size: 40px;
-  margin: 15px;
-  font-family: fantasy;
-}
-h4 {
-  text-align: center;
-  font-size: 45px;
-  font-family: sans-serif;
+  font-style: normal;
   font-weight: normal;
-}
-
-h5 {
-  text-align: center;
   font-size: 50px;
-  font-family: sans-serif;
+
+}
+
+p{
+  font-family: "Times New Roman", Times,serif;
+  font-style: oblique;
   font-weight: normal;
-}
-/* nav bar */
-/* The navigation menu */
-.navbar {
-  overflow: hidden;
-  background-color: rgb(13, 13, 13);
+  font-size: 35px
 }
 
-/* Navigation links */
-.navbar a {
-  float: left;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The subnavigation menu */
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-/* Subnav button */
-.subnav .subnavbtn {
-  font-size: 20px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-/* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: blue;
-}
-
-/* Style the subnav content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: blue;
-  width: 100%;
-  z-index: 1;
-}
-
-/* Style the subnav links */
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
-  display: block;
-}
-
-
-
-#ugh {
-  color:#a66100
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 20px;
-  font-size: sans-serif;
-}
-
-body {background-color: white}
-
-.header {
-  background-color:gray;
-  padding:30px;
-  text-align:center;
-  color: white;
-  font-size: 12px;
-}
-/* testpreppage id style  */
-
-
-/*comments*/
-table, td {
-  border: 1px solid black;
-}
-
-* {box-sizing: border-box}
-
-    body {font-family: Verdana, sans-serif; margin:0}
-    .mySlides {display: none}
-    img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-max-width: 1000px;
-position: relative;
-margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -22px;
-color: white;
-font-weight: bold;
-font-size: 18px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-right: 0;
-border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-cursor: pointer;
-height: 15px;
-width: 15px;
-margin: 0 2px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
 
 @-webkit-keyframes fade {
 from {opacity: .4}
