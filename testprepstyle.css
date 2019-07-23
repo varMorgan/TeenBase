@@ -1,6 +1,5 @@
 /* This is for the to the top button */
 #topbtn {
-  /* display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 30px; /* Place the button at the bottom of the page */
   right: 40px; /* Place the button 30px from the right */
@@ -47,9 +46,10 @@ height: 100%;
 }
 
 body {
-background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
+/* background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg"); */
 background-repeat: no-repeat;
 background-size: 100% 100%;
+background-color: white;
 }
 
 #hehe {
@@ -57,4 +57,17 @@ background-size: 100% 100%;
   color: #0000FF;
   font-size: 50px;
   font-family: cursive;
+}
+
+.testing {
+  background-image: url("https://www.scantron.com/wp-content/uploads/2018/09/Test-form-light-1600x1063.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-position: left bottom;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: inherit;
+  border-bottom-style: outset;
+  border-top-style: outset;
 }
