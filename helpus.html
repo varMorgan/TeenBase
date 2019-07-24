@@ -4,20 +4,33 @@
   <head>
     <link rel="stylesheet" href="teenbasestyle.css">
     <link rel="stylesheet" href="skillsStyle.css">
+    <link rel="stylesheet" href="testprepstyle.css">
     <script src="tbJava.js"></script>
     <style>
-      div.topnav {
+      div.navbar {
         /* position: -webkit-sticky; */
         position: sticky;
         top: 0;
         background-color: black;
-        padding: 15px;
         font-size: 20px;
       }
 
       table, td {
   border: 1px solid black;
+  width: 400px;
       }
+
+      input {
+        width: 800px;
+        padding: 10px;
+        border-radius: 60px;
+      }
+
+      .margins {
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+
     </style>
 
   </head>
@@ -38,7 +51,7 @@
         <a href="testpreppage.html">Test Prep</a>
         <a href="scholarships.html">Scholarships</a>
         <a href="advice.html">HS Advice</a>
-        <a href="helpus.html">Help Us</a>
+        <a class="active" href="helpus.html">Help Us</a>
       </div>
 
 
@@ -51,12 +64,13 @@
       <a href="helpus.html">Help Us</a>
     </div> -->
 
+    <section class="margins">
     <h1>Comments?</h1>
     <hr width="75%" color=#333></hr>
     <h2>In order for us to provide more resources and tips on navigating highschool and college we would like to enlist
     you, our readers, for help. There are many resources that we are not aware of, so help us and send in your suggestions on how to make
     our site better. </h2>
-    <h2>Thank you! -Admin Morgan :) </h2>
+    <h2>Thank you! -TeenBase Team </h2>
 
 <!-- This is the comment bar -->
     <center>
@@ -66,15 +80,14 @@
     </form>
   </center><br>
 
-<center><button onclick="myFunction()">Send Comment</button></center>
+<center><button id="sendbtn" onclick="myFunction()">Send Comment</button></center><br>
 
-<p>Comments</p>
 
 <!-- This is the comment table/design later is css -->
 <center>
 <table id="myTable">
     <tr>
-      <td>This is a comment</td>
+      <td>Comments go here.</td>
     </tr>
 </table>
 </center>
@@ -89,6 +102,8 @@
   cell1.innerHTML = document.getElementById("comment").value;
   }
 </script>
+
+</section>
 
 
     <!-- <center>

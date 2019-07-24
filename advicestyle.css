@@ -11,15 +11,28 @@ h2{
   font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 20px;
 
+}
+
+h3 {
+  font-family: "Times New Roman",Times, sans-serif;
+  font-style: oblique;
+  font-weight: normal;
+  font-size: 35px;
+  
+}
+
+.margins {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 p{
   font-family: "Times New Roman", Times,serif;
   font-style: oblique;
   font-weight: normal;
-  font-size: 35px
+  font-size: 40px
 }
 
 
