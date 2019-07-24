@@ -15,6 +15,11 @@ h2{
 
 }
 
+.margins {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 p{
   font-family: "Times New Roman", Times,serif;
   font-style: oblique;
