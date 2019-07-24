@@ -87,9 +87,6 @@ background-clip: padding-box;
   background-size: cover;
   background-clip: padding-box;
   background-position: left bottom;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
@@ -109,9 +106,6 @@ background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
@@ -121,9 +115,6 @@ background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
@@ -133,9 +124,6 @@ background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
