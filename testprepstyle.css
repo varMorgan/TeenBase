@@ -64,9 +64,13 @@ height: 100%;
 
 body {
 /* background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg"); */
-background-repeat: no-repeat;
+/* background-repeat: no-repeat;
 background-size: 100% 100%;
-background-color: white;
+background-color: white; */
+background-color: #E0E0E0;
+background-repeat: no-repeat;
+background-size: cover;
+background-clip: padding-box;
 }
 
 #hehe {
@@ -83,9 +87,6 @@ background-color: white;
   background-size: cover;
   background-clip: padding-box;
   background-position: left bottom;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
@@ -105,9 +106,6 @@ background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
@@ -117,20 +115,15 @@ background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
 
 .ACT-des {
+  background-image: url("https://fegol.net/wp-content/uploads/2018/10/many-pencils-piled-in-a-big-pile-PT34GEH.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: padding-box;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: inherit;
   border-bottom-style: outset;
   border-top-style: outset;
 }
