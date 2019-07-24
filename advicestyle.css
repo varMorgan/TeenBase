@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 60px;
+  outline: inherit;
+  outline-color: inherit;
+}
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+
+}
+
+p{
+  font-family: "Times New Roman", Times,serif;
+  font-style: oblique;
+  font-weight: normal;
+  font-size: 35px
+}
+
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}

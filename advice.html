@@ -1,85 +1,75 @@
+
+
 <!DOCTYPE html>
-<link rel"stylesheet" href="teenbasestyle.css">
-<link rel="stylesheet" href="skillsStyle.css">
-<script src="tbJava.js"> </script>
 
 <html>
-
-
-
-
-
-
 <head>
-
+<link rel="stylesheet" href="skillsStyle.css">
+<link rel="stylesheet" href="teenbasestyle.css">
+<link rel="stylesheet" href="advicestyle.css">
+<script src="tbJava.js"></script>
 </head>
+
+  <body>
 <body background ="http://s1.picswalls.com/wallpapers/2016/06/06/beach-pictures_090611416_305.jpg">
+    <div class="navbar">
+        <a class="active" href="testrun.html">Home</a>
+        <!-- <div class="subnav">
+          <button class="subnavbtn" onclick="window.location.href = 'skillsPage.html';">Skills</button>
+          <div class="subnav-content">
+            <a href="#">Career</a>
+            <a href="#">School</a>
+            <a href="#">Random</a>
+          </div> -->
 
-  <div class="navbar" >
-      <a class="active" href="testrun.html">Home</a>
-      <div class="subnav">
-        <button class="subnavbtn" onclick="window.location.href = 'skillsPage.html';">Skills</button>
-        <div class="subnav-content">
-          <a href="#">Career</a>
-          <a href="#">School</a>
-          <a href="#">Random</a>
-        </div>
+        <a href="skillsPage.html">Skills</a>
+
+        <a href="testpreppage.html">Test Prep</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="advice.html">HS Advice</a>
+        <a href="helpus.html">Help Us</a>
       </div>
-      <a href="testpreppage.html">Test Prep</a>
-      <a href="scholarships.html">Scholarships</a>
-      <a href="advice.html">HS Advice</a>
-      <a href="#merchandise">Merch</a>
-    </div>
-
-<center> <h1> Advice </h1> </center>
-<div>
-<center><p> <h1>This page is about helping other young students on their pathway towards college and how to remain successful throughout highschool.</p></h1>
-</div>
-
-<div>
-  <h1> Advice Begins </h1>
-  <p><h1> Take advantage of all volunteer opportunities within your community and school. Also when searching for volunteer opportunities try to volunteer at a certain organization for a good amount of time because colleges tend to see how committed you actually are.</p></h1>
-  <p><h1> Always seek help whenever you are struggling in a certain subject don't hesitate to ask any questions because it is better to know and understand than not understand at all. </p></h1>
-  <p><h1> Do not procrastinate! (I know you have probably heard this a million times but it is true!!) </p></h1>
-  <p><h1> Down below is a comment section in where you can input your own advice and experience :) </p></h1>
+      
 
 
+      <center> <h1> Advice </h1> </center>
+      <div>
+      <center><p> <h2>This page is about helping other young students on their pathway towards college and how to remain successful throughout highschool.</p></h2>
+      </div>
 
-  <!-- <form name = "test">
-    <input type= "text" name="textie">  -->
-  <!-- </form> -->
-  <!-- <form name="userForm"> -->
-  <center>
-    <form class="advice_sect">
+      <div>
+        <h2> Advice Begins </h2>
+        <p> Take advantage of all volunteer opportunities within your community and school. Also when searching for volunteer opportunities try to volunteer at a certain organization for a good amount of time because colleges tend to see how committed you actually are.</p>
+        <p> Always seek help whenever you are struggling in a certain subject don't hesitate to ask any questions because it is better to know and understand than not understand at all. </p>
+        <p> Do not procrastinate! (I know you have probably heard this a million times but it is true!!) </p>
+        <p> Down below is a comment section in where you can input your own advice and experience :) </p>
 
-    comments:
-    <input id="userInput" type="text" name="userInput" value> <br><br>
+        <center>
+         <form class="advice_sect">
 
-  </form>
-</center><br>
+         comments:
+         <input id="userInput" type="text" name="userInput" value> <br><br>
 
-<center><button onclick="myAdvice()"> Send Comment</button></center>
+       </form>
+     </center><br>
 
-  <p> Comments </p>
-  <table id="table">
+     <center><button onclick="myAdvice()"> Send Comment</button></center>
 
-    <!-- <tr>
-      <td>comment</td>
-    </tr> -->
+       <p> Comments </p>
+       <table id="table">
+       </body>
+       <script>
+           function myAdvice(){
+           var table = document.getElementById("table");
+           var row = table.insertRow(0);
+           var td1 = row.insertCell(0);
+           td1.innerHTML = document.getElementById("userInput").value;
+       }
 
-  </table>
-  <br>
+       </script>
 
-</body>
-<script>
-    function myAdvice(){
-    var table = document.getElementById("table");
-    var row = table.insertRow(0);
-    var td1 = row.insertCell(0);
-    td1.innerHTML = document.getElementById("userInput").value;
-}
 
-</script>
-
+       <!-- </html> -->
+  </body>
 
 </html>
