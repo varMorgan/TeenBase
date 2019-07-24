@@ -6,24 +6,14 @@ h21 {
 }
 
 h22{
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-size: 24px;
+  font-style: normal;
+   font-variant: normal;
+   font-weight: 300;
+  line-height: 26.4px;
+ }
 
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgb(13, 13, 13);
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -91,8 +81,10 @@ h22{
 
   /* Caption text */
   .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color:rgb(13, 13, 13) ;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
