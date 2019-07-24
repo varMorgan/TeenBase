@@ -1,33 +1,30 @@
 
 /* Dotted red border */
 h21 {
-  border-top-style: dotted;
+  border-top-style: solid;
   border-color: darkblue;
+  border-radius: 20px;
 }
 
-h22{
-  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-  font-size: 24px;
-  font-style: normal;
-   font-variant: normal;
-   font-weight: 300;
-  line-height: 26.4px;
+
+
+ h23{
+   text-align: center;
+   font-family: fantasy;
+   font-size: 50px;
+   outline: inherit;
+   outline-color: inherit;
  }
 
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
+ h24{
+     text-align: center;
+     top: 0;
+     /* background-color: black; */
+     padding: 15px;
+     font-size: 25px;
+     margin: 15px;
+     font-family: sans-serif;
+ }
 
 
 
