@@ -20,11 +20,23 @@ h21 {
      text-align: center;
      top: 0;
      /* background-color: black; */
-     padding: 15px;
+     padding: 30px;
      font-size: 25px;
-     margin: 15px;
+     margin: 40px;
      font-family: sans-serif;
  }
+
+
+ #subtitle {
+   font-weight: lighter;
+   color: rgb(13, 13, 13);
+   font-size: 50px;
+   font-family: monospace;
+   text-align: center;
+}
+#image {
+  margin-right: 1000px;
+}
 
 
 
