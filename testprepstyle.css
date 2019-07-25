@@ -82,8 +82,13 @@ background-clip: padding-box;
   font-weight: 600;
 }
 
+#title {
+  color: #0000FF;
+}
+
 .testing {
-  background-image: url("https://www.scantron.com/wp-content/uploads/2018/09/Test-form-light-1600x1063.jpg");
+  /* background-image: url("1.png"); */
+  /* background-image: url("https://www.scantron.com/wp-content/uploads/2018/09/Test-form-light-1600x1063.jpg"); */
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +109,7 @@ background-clip: padding-box;
 
 
 .AP-des {
-  background-image: url("http://www.treesmart.com/TSPStore/wp-content/uploads/2015/01/80001-Sharpened-Pencils.jpg");
+  /* background-image: url("http://www.treesmart.com/TSPStore/wp-content/uploads/2015/01/80001-Sharpened-Pencils.jpg"); */
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +120,7 @@ background-clip: padding-box;
 }
 
 .SAT-des {
-  background-image: url("https://www.designsponge.com/wp-content/uploads/2012/10/pinkpearl1.jpg");
+  /* background-image: url("https://www.designsponge.com/wp-content/uploads/2012/10/pinkpearl1.jpg"); */
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +130,7 @@ background-clip: padding-box;
 }
 
 .ACT-des {
-  background-image: url("https://fegol.net/wp-content/uploads/2018/10/many-pencils-piled-in-a-big-pile-PT34GEH.jpg");
+  /* background-image: url("https://fegol.net/wp-content/uploads/2018/10/many-pencils-piled-in-a-big-pile-PT34GEH.jpg"); */
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
